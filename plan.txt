@@ -1,0 +1,67 @@
+
+
+home page
+1.navigation bar
+2.advertising board
+3.login and register
+4.greetings
+
+
+contact
+1.phone
+2.email
+3.address
+4.social medias
+
+
+registration page
+1.name
+2.middle name
+2.last name
+2.dob
+2.mobile number
+2.email
+2.address
+3.city
+3.pincode
+4.aadhar number
+5.password
+6.confirm password
+
+
+confirm details page
+
+
+login page
+1.email
+2.name
+3.password
+4.confirm password
+
+
+products page
+1.product photo
+2.price
+3.add to cart
+4.order now
+5.prodect detail 
+
+separate product page
+1.pic
+2.price
+3.detail
+
+products
+1.8
+2.12
+3.17
+4.21
+5.33
+
+
+order page
+1.product name
+2.product price
+3.pic
+4.quantity
+5.payment method
