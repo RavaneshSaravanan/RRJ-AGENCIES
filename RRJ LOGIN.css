@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    body{
+        background-image: url(RRJ_LOGO.png);
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        backdrop-filter: blur(20px);
+        
+    }
+    .navigation-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1px 10px;
+        background-color: red;
+    }
+    .navigation{
+        display: flex;
+    }
+    .left-content ,.right-content{
+        display: flex;
+        align-items: center;
+    }
+    .left-content li,.right-content li{
+        margin-right: 25px;
+        padding-top: 10px;
+        list-style: none;
+    }
+    .left-content li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        
+    } 
+    .left-content li a:hover{
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white,0 0 40px white,0 0 50px white,0 0 60px white,0 0 70px white;
+    }
+    .right-content li a:hover{
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white,0 0 40px white,0 0 50px white,0 0 60px white,0 0 70px white;
+    }
+    .right-content li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: bolder;
+        
+    }
+    .wrapper {
+        margin-top: 100px;
+        width: 420px;
+        background: transparent;
+        backdrop-filter: blur;
+        color: darkred;
+        border: 2px green (255, 255, 255, .2);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .12);
+        border-radius: 10px;
+        padding: 30px 40px;
+        padding-top: 50px;
+        margin-left: 38%;
+     }
+    
+    .wrapper h1{
+        font-size: 36px ;
+        text-align: center;
+        color: red;
+    }
+    .wrapper .input-box{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+        color: darkred;
+       
+    }
+    .input-box input{
+        width: 100%;
+        height:100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgb(66, 66, 243);
+        border-radius: 40px;
+        font-size: 16px;
+        color: yellow;
+        padding: 20px 45px 20px 20px;
+    }
+    .input-box input::placeholder {
+        color: yellow;
+    }
+    .input-box i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: black;
+    }
+    .wrapper .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        margin: -15px 0 15px;
+        color: black;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .remember-forgot lable input {
+        accent-color: red;
+        margin-right: 3px;
+    }
+    .remember-forgot a {
+        color: black;
+        text-decoration: none;
+    }
+    .remember-forgot a:hover {
+        text-decoration: underline;
+    }
+    .wrapper .btn {
+        width: 100%;
+        height: 45px;
+        background: red;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+        
+    }
+    .wrapper .btn:hover{
+        color: red;
+        background-color: white;
+    }
+    .wrapper .register-link {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px 0 15px;
+    }
+    .register-link p{
+        color: black;
+        font-size: 20px;
+    }
+    .register-link p a {
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .register-link p a:hover {
+        text-decoration: underline;
+    }
+}

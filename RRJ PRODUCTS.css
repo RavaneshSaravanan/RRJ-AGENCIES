@@ -52,46 +52,44 @@
         font-weight: bolder;
         
     }
-    .content{
+    .search-box{
+        margin-top: 10px;
+        margin-left: 5%;
+        text-align: center;
+        border-radius: 20px;
+        height: 40px;
+        width: 90%;
+        font-size: 25px;
+        color: blue;
+        background-color: transparent;
+    }
+    .products{
         display: flex;
-        background-size: cover;
+        margin-top: 50px;
+        border: 2px solid black ;
+        margin-left: 5%;
+        margin-right: 20%;
     }
-    .content-h1{
-        font-size: 70px;
-        font-weight: bold;
-        color: rgb(70, 70, 202);
-        padding-left: 30px;
-        text-decoration-line: underline;
-        text-align: center;
+    .one{
+        width: 200px;
+        height: 200px;
+        padding-right: 50px;
     }
-    .content-p{
-        font-size: 35px;
-        color: black;
-        padding-left: 30px;
-        text-align: center;
-        line-height: 50px;
-    }
-    .total{
-        height: 500px;
-        width: 500px;
-        justify-content: flex-end;
-    }
-    button{
-        background-color: darkblue;
-        color: white;
-        width: 25%;
-        height: 60px;
-        text-decoration: none;
-        text-align: center;
-        border: 4px black;
-        margin-right: 50px;
-        border-radius: 40px;
+    .products p{
         font-size: 30px;
-        
+        line-height: 40px;
     }
-    button:hover{
-       background-color: rgb(55, 241, 55);
-       color: yellow;
+    .products button{
+        margin-right: 30px;
+        border-radius: 20px;
+        background-color: indigo;
+        color: white;
+        height: 40px;
+        width: 160px;
+        margin-top: 25px;
     }
-    
+    .products button:hover{
+        background-color: yellow;
+        color: red;
+    }
 }
